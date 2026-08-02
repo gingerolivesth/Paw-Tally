@@ -9,9 +9,9 @@
 - Key elements: isConfigured, currentCategory, updateFormVisibility, listenForEntries, renderEntry, formatTimestamp, escapeHtml, showToast
 - Depends on: ./firebase-config.js, firebase-firestore.js
 - Notes: Imports db and entriesCol from firebase-config.js. If you add new Firestore fields in addDoc payloads, also update renderEntry() to display them.
-- Lines: 230 | Tokens: ~1917
+- Lines: 231 | Tokens: ~1930
 - Flagged: No
-- Last updated: 2026-08-02T04:09:15
+- Last updated: 2026-08-02T10:19:17
 
 ### firebase-config.js
 - Summary: Firebase initialization and Firestore collection reference; single source of truth for project config

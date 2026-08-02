@@ -191,6 +191,7 @@ if (!isConfigured) {
     }
 
     el.querySelector(".entry-remove").addEventListener("click", async () => {
+      if (!confirm("Remove this entry?")) return;
       try {
         await deleteDoc(doc(db, "payments", id));
       } catch (err) {
